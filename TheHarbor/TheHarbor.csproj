@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\CargoShip.png" />
+    <None Remove="images\CargoShipFlipped.png" />
+    <None Remove="images\Catamaran.png" />
+    <None Remove="images\CatamaranFlipped.png" />
+    <None Remove="images\Harbor1Top.png" />
+    <None Remove="images\Harbor2Bottom.png" />
+    <None Remove="images\Motorboat.png" />
+    <None Remove="images\MotorboatFliped.png" />
+    <None Remove="images\Rowboat.png" />
+    <None Remove="images\RowboatFliped.png" />
+    <None Remove="images\Sailboat.png" />
+    <None Remove="images\SailboatFlipped.png" />
+    <None Remove="images\StoneWalkway.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\CargoShip.png" />
+    <Resource Include="images\CargoShipFlipped.png" />
+    <Resource Include="images\Catamaran.png" />
+    <Resource Include="images\CatamaranFlipped.png" />
+    <Resource Include="images\Harbor1Top.png" />
+    <Resource Include="images\Harbor2Bottom.png" />
+    <Resource Include="images\Motorboat.png" />
+    <Resource Include="images\MotorboatFliped.png" />
+    <Resource Include="images\Rowboat.png" />
+    <Resource Include="images\RowboatFliped.png" />
+    <Resource Include="images\Sailboat.png" />
+    <Resource Include="images\SailboatFlipped.png" />
+    <Resource Include="images\StoneWalkway.png" />
+  </ItemGroup>
+
+</Project>
